@@ -8,10 +8,10 @@ class SquareTest extends BaseIOTest {
     @Test
     void printSquareFrom8sPrintsSquare() {
         String expected = "88888\n" +
-                "8   8\n" +
-                "8   8\n" +
-                "8   8\n" +
-                "88888\n";
+                          "8   8\n" +
+                          "8   8\n" +
+                          "8   8\n" +
+                          "88888\n";
 
         Square square = new Square();
 
